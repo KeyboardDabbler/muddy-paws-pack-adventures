@@ -15,8 +15,8 @@ export default defineConfig({
   theme: {
     extend: {
       colors: {
-        backg: '#35AC90',
-        forg: '#35AC90',
+        backg: '#51C9AD',
+        forground: '#35AC90',
         action: '#62466B',
         stroke: '#73D4BD',
         focus: '#2B8C76',

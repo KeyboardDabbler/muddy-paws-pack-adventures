@@ -5,5 +5,5 @@ export default defineNuxtConfig({
     'nuxt-windicss',
     'nuxt-icon'
 ],
-  css: [],
+  css: ['~/resources/scrollbar.css'],
 })
