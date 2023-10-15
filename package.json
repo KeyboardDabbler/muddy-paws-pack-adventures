@@ -16,5 +16,8 @@
     "nuxt-windicss": "^2.6.1",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "vue-social-chat": "^1.0.0"
   }
 }
