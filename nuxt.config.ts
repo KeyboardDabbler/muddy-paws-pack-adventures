@@ -12,4 +12,17 @@ export default defineNuxtConfig({
     'nuxt-icon',
 ],
   css: ['~/resources/scrollbar.css'],
+  app: {
+    head: {
+      script: [
+        {
+          src: 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v18.0',
+          async: true,
+          defer: true,
+          crossorigin: 'anonymous',
+          nonce: 'MC3jL7ag',
+        },
+      ],
+    }
+  }
 })
